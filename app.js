@@ -38,6 +38,7 @@ class UI {
         }
     }
 
+
     static clearFields() {
         document.querySelector('#title').value = '';
         document.querySelector('#artist').value = '';
@@ -58,10 +59,9 @@ document.querySelector('#vinyl-form').addEventListener('submit', (e) => {
     const title = document.querySelector('#title').value;
     const artist = document.querySelector('#artist').value;
 
-    if (title === '' || artist === '') {
-        alert('Please fill in all fields')
+    if (title === '' || artist == '') {
+        alert('Please fill in all fields.')
     } else {
-
 
     const record = new Record(title, artist);
 
