@@ -146,9 +146,12 @@ label {
 
 .table {
     margin-top: 3rem;
-    border: 1px solid;
+    border: none;
     width: 100%;
+}
 
+.table thead {
+    background-color: white;
 }
 
 .table #form-group {
@@ -158,4 +161,9 @@ label {
 .table tr:nth-child(odd) {
     background-color: white;
     color: var(--ff-secondary);
+}
+
+.table tr:nth-child(even) {
+    background-color: var(--clr-dark);
+    color: white;
 }
