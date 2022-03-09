@@ -31,6 +31,11 @@ class UI {
 
         list.appendChild(row);
     }
+
+    static clearFields() {
+        document.querySelector('#title').value = '';
+        document.querySelector('#artist').value = '';
+    }
 }
 
 //Store Class: Handles Storage
@@ -50,7 +55,9 @@ document.querySelector('#vinyl-form').addEventListener('submit', (e) => {
     const record = new Record(title, artist);
 
     UI.addRecordToList(record);
-})
+
+    UI.clearFields()
+});
 
 
 

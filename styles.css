@@ -56,7 +56,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
 }
 
 section {
@@ -148,4 +148,14 @@ label {
     margin-top: 3rem;
     border: 1px solid;
     width: 100%;
+
+}
+
+.table #form-group {
+    background-color: black;
+}
+
+.table tr:nth-child(odd) {
+    background-color: white;
+    color: var(--ff-secondary);
 }
