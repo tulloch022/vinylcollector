@@ -65,7 +65,6 @@ section {
 
 
 .container-form {
-
     margin: 5rem;
     justify-content: center;
 }
@@ -150,8 +149,9 @@ label {
     width: 100%;
 }
 
-.table thead {
+.table #top {
     background-color: white;
+    color: var(--clr-dark)
 }
 
 .table #form-group {
@@ -159,11 +159,10 @@ label {
 }
 
 .table tr:nth-child(odd) {
-    background-color: white;
-    color: var(--ff-secondary);
+    background-color: var(--clr-dark);
+    color: white;
 }
 
 .table tr:nth-child(even) {
-    background-color: var(--clr-dark);
-    color: white;
+    background-color: white;
 }
