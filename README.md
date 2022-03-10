@@ -1,1 +1,1 @@
-# vinylcollector
+# MyVinylStash
