@@ -60,21 +60,11 @@ body {
     margin-top: 2rem;
 }
 
-section {
-    padding: 5em 2em;
-}
-
 
 .container-form {
     margin: 5rem;
     justify-content: center;
 }
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
 
 
 
@@ -97,8 +87,6 @@ h3 {font-size: var(--fs-h3);}
 label {
     font-size: var(--fs-h3);
 }
-
-
 
 .text-primary {
     color: black;
@@ -157,6 +145,7 @@ label {
     border: none;
     width: 100%;
     border-collapse: collapse;
+    text-align: center;;
 }
 
 .table #top {

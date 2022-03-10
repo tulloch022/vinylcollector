@@ -60,7 +60,7 @@ document.querySelector('#vinyl-form').addEventListener('submit', (e) => {
     const artist = document.querySelector('#artist').value;
 
     if (title === '' || artist == '') {
-        alert('Please fill in all fields.')
+        alert('You must enter a title and an artist to add a record!')
     } else {
 
     const record = new Record(title, artist);
