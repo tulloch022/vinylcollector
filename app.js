@@ -1,5 +1,8 @@
 //Record Class: Represents a Record
 
+
+
+
 class Record {
     constructor(title, artist) {
         this.title = title;
@@ -7,7 +10,13 @@ class Record {
     }
 }
 
+
+
+
 //UI Class: Handle UI Tasks
+
+
+
 
 class UI {
     static displayRecords() {
@@ -45,11 +54,19 @@ class UI {
     }
 }
 
-//Store Class: Handles Storage
+
+
 
 //Event: Display Records
 
+
+
+
 document.addEventListener('DOMContentLoaded', UI.displayRecords);
+
+
+
+
 
 //Event: Add a Record
 
@@ -70,6 +87,8 @@ document.querySelector('#vinyl-form').addEventListener('submit', (e) => {
     UI.clearFields()
     }
 });
+
+
 
 
 
